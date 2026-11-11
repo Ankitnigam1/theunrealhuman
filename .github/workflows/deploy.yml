@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: cat site-final5.zip.* > site-final5.zip && unzip -o site-final5.zip -d site
+      - run: cat site-final6.zip.* > site-final6.zip && unzip -o site-final6.zip -d site
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
